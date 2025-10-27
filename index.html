@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="bn">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>MuGdHo💖</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <img src="mugdho.jpg" alt="" /> -->
+  </head>
+  <body>
+    <div class="page">
+      <div class="card">
+        <div class="surprise">
+          <div class="emoji-row" aria-hidden="true">
+            <span>⚠️ ⚠️ 🚸 ⛔ 🚫 🚳 🚭 🚯 🚱 🚷 📵 🔞 ☢️ </span>
+            <span>😍</span>
+            <span>🥰</span>
+            <span>🌹</span>
+            <span>💫</span>
+          </div>
+
+          <h1 class="big">fuck<span class="babe"> chudi</span></h1>
+
+          <p class="sub">jihad chudi💕</p>
+
+          <div class="emoji-row bottom" aria-hidden="true">
+            <span>💋</span>
+            <span>💘</span>
+            <span>🤍</span>
+            <span>✨</span>
+          </div>
+
+          <button id="moreBtn" class="btn">jihad achoda💌</button>
+          <div id="extra" class="extra" aria-hidden="true">
+            <p>..</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // little interactivity (no password, nothing secret)
+      document.addEventListener("DOMContentLoaded", () => {
+        // Add entry animation
+        document.querySelector(".card").classList.add("enter");
+
+        const btn = document.getElementById("moreBtn");
+        const extra = document.getElementById("extra");
+
+        btn.addEventListener("click", () => {
+          if (extra.style.display === "block") {
+            extra.style.display = "none";
+            btn.textContent = "আরও দেখাও 💌";
+          } else {
+            extra.style.display = "block";
+            btn.textContent = "কম করে দাও ✨";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
